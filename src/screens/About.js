@@ -1,14 +1,33 @@
-import React from "react";
+import React, { Component } from "react";
+export default class About extends Component {
+  render() {
+    let Data = this.props.Data;
+    return (
+      <section id="about">
+        <div className="row">
+          <div className="three columns">
+            <img className="profile-pic" src="assets/me2.jpg" alt="" />
+          </div>
 
-export const About = () => (
-  <div>
-    <h2>About Page</h2>
-    <p>
-      Just make little strokes like that. All you have to do is let your
-      imagination go wild. Very easy to work these to death. Trees grow however
-      makes them happy. Use what happens naturally, don't fight it. I spend a
-      lot of time walking around in the woods and talking to trees, and
-      squirrels, and little rabbits and stuff.
-    </p>
-  </div>
-);
+          <div className="nine columns main-col">
+            <h2>About</h2>
+            <p>{Data.aboutme}</p>
+
+            <div className="row">
+              <div className="columns contact-details">
+                <h2>Me</h2>
+                <p className="address">
+                  <span>{Data.name}</span>
+                  <br></br>
+                  <span>{Data.address}</span>
+                  <br></br>
+                  <span>{Data.email}</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
+}

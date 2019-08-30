@@ -1,0 +1,94 @@
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #838c95;
+}
+
+/* This is the for the images in projects */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.row {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+/* row clearing */
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.column,
+.columns {
+  position: relative;
+  padding: 0 10px;
+  min-height: 1px;
+  float: left;
+}
+.column.centered,
+.columns.centered {
+  float: none;
+  margin: 0;
+}
+
+/* COLUMN widths */
+.row .one {
+  width: 8%;
+}
+.row .two {
+  width: 16%;
+}
+.row .three {
+  width: 25%;
+}
+.row .four {
+  width: 35%;
+}
+.row .five {
+  width: 40%;
+}
+.row .six {
+  width: 50%;
+}
+.row .seven {
+  width: 58%;
+}
+.row .eight {
+  width: 66%;
+}
+.row .nine {
+  width: 75%;
+}
+.row .ten {
+  width: 83%;
+}
+.row .eleven {
+  width: 92%;
+}
+.row .twelve {
+  width: 100%;
+}
