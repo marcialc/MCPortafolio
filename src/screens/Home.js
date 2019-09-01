@@ -50,13 +50,6 @@ export default class Home extends Component {
               </ul>
             </div>
           </div>
-          {/* <p className="scrolldown">
-            <a className="smoothscroll" href="#about">
-              <h3>
-                <i className="icon-down-circle"></i>
-              </h3>
-            </a>
-          </p> */}
         </header>
       </React.Fragment>
     );
