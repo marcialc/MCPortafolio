@@ -1,21 +1,26 @@
 module.exports = function(grunt) {
-  grunt.initConfig({
-    jshint: {
-      files: ["Gruntfile.js", "src/**/*.js", "test/**/*.js"],
-      options: {
-        globals: {
-          jQuery: true
-        }
-      }
-    },
-    watch: {
-      files: ["<%= jshint.files %>"],
-      tasks: ["jshint"]
-    }
+  
+  // Configuration
+  // grunt.initConfig({
+  //   concat: {
+  //     js: {
+  //       src: ['src/screens/*.js']
+  //       dest: 'build/scripts.js'
+  //     }
+  //   }
+  // });
+
+  // Load plugins
+  grunt.loadNpmTasks('grunt-contrib-concat');
+
+  // Register Tasks
+  grunt.registerTask('run', function(){
+    console.log('running site');
   });
 
-  grunt.loadNpmTasks("grunt-contrib-jshint");
-  grunt.loadNpmTasks("grunt-contrib-watch");
+  grunt.registerTask('sleep', function(){
+    console.log('sleeping');
+  });
 
-  grunt.registerTask("default", ["jshint"]);
-};
+  grunt.registerTask('default', ['sleep', 'run']);
+};  
