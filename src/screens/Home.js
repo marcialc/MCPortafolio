@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { FaBeer } from "react-icons/fa";
 
 export default class Home extends Component {
   render() {
@@ -7,13 +6,7 @@ export default class Home extends Component {
     return (
       <React.Fragment>
         <header id="home">
-          <nav id="nav-wrap">
-            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-              Show navigation
-            </a>
-            <a className="mobile-btn" href="#" title="Hide navigation">
-              Hide navigation
-            </a>
+          <nav id="nav-wrap">           
             <ul id="nav" className="nav">
               <li className="current">
                 <a className="smoothscroll" href="#home">
@@ -41,7 +34,7 @@ export default class Home extends Component {
                   Data.socialLinks.map(item => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url} target="_blank">
+                        <a href={item.url}>
                           <i className={item.className} />
                         </a>
                       </li>
