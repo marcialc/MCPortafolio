@@ -1,6 +1,6 @@
 let Data = {
   name: "Marcial Cabrera",
-  headline: "Software Engineer / Front-end Developer / iOS Developer",
+  headline: "Software Engineer / Front-end Developer / Mobile Developer",
   socialLinks: [
     {
       name: "linkedin",
