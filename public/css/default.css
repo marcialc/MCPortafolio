@@ -19,18 +19,6 @@ body {
   color: #838c95;
 }
 
-/* This is the for the images in projects */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.row {
-  width: 100%;
-  max-width: 1050px;
-  margin: 0 auto;
-}
-
 /* row clearing */
 .row:before,
 .row:after {
