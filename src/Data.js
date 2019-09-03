@@ -60,28 +60,6 @@ let Data = {
       skillname: "Kotlin"
     }
   ],
-  portfolio: [
-    {
-      name: "project1",
-      description: "mobileapp",
-      imgurl: "images/portfolio/console.jpg"
-    },
-    {
-      name: "project2",
-      description: "mobileapp",
-      imgurl: "images/portfolio/girl.jpg"
-    },
-    {
-      name: "project3",
-      description: "mobileapp",
-      imgurl: "images/portfolio/coffee.jpg"
-    },
-    {
-      name: "project4",
-      description: "mobileapp",
-      imgurl: "images/portfolio/judah.jpg"
-    }
-  ]
 };
 
 export default Data;
