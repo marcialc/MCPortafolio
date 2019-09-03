@@ -3,6 +3,7 @@ import React, { Component } from "react";
 export default class Home extends Component {
   render() {
     let Data = this.props.Data;
+    
     return (
       <React.Fragment>
         <header id="home">
