@@ -14,7 +14,7 @@ let Data = {
     }
   ],
   aboutme:
-    "Currently a Senior in Florida International University (FIU) Pursing a Bachelors of Science in Computer Science field. Very passionated about about my field and whats to come and the new tehcnologies and challenges it brings.",
+    "Currently a Senior in Florida International University (FIU) Pursing a Bachelors of Science in Computer Science. Very passionated about about my field and whats to come and the new tehcnologies and challenges it brings.",
   address: "Miami, FL",
   email: "marcialandres06@gmail.com",
   education: [
