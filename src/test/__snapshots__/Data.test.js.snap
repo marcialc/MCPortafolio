@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`My info 1`] = `"Cabrera"`;
+exports[`My info 1`] = `"Marcial Cabrera"`;
 
 exports[`My info 2`] = `"Software Engineer / Front-end Developer / Mobile Developer"`;
 
