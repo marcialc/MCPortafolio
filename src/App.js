@@ -4,7 +4,6 @@ import About from "./screens/About";
 import Experience from "./screens/Experience";
 import Data from "./Data";
 
-
 class App extends Component {
   render() {
     return (
