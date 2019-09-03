@@ -1,11 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Changes in data 1`] = `"Marcial Cabrera"`;
-
 exports[`My info 1`] = `"Marcial Cabrera"`;
 
 exports[`My info 2`] = `"Software Engineer / Front-end Developer / Mobile Developer"`;
 
 exports[`My info 3`] = `"Currently a Senior in Florida International University (FIU) Pursing a Bachelors of Science in Computer Science field. Very passionated about about my field and whats to come and the new tehcnologies and challenges it brings."`;
-
-exports[`My info 4`] = `null`;
