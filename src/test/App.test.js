@@ -1,6 +1,12 @@
+import React from 'react';
+import App from "../App";
+import ReactDOM from 'react-dom';
+import Adapter from 'enzyme-adapter-react-16';
+import { shallow, configure } from 'enzyme';
 
-describe('My Test Suite', () => {
-    it('My Test Case', () => {
-      expect(true).toEqual(true);
-    });
-  });
+configure({adapter: new Adapter()});
+describe('React component test with Enzyme', () => {
+  it('renders without crashing', () => {
+     shallow(<App />);
+   });
+});

@@ -7,7 +7,6 @@ export default class Experience extends Component {
       <section id="experience">
         {/* Education Section */}
         <div className="row education">
-        
           <div className="three columns header-col">
             <h1>
               <span>education</span>
