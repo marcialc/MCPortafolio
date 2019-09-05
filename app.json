@@ -16,6 +16,7 @@
   },
   "name": "MCPortafolio",
   "scripts": {
+    "build": "npm run build"
   },
   "stack": "heroku-18"
 }
