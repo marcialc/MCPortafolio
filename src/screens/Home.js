@@ -1,9 +1,8 @@
 import React, { Component } from "react";
+import Data from "../Data";
 
 export default class Home extends Component {
   render() {
-    let Data = this.props.Data;
-    
     return (
       <React.Fragment>
         <header id="home">
@@ -28,8 +27,8 @@ export default class Home extends Component {
           </nav>
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">{Data.name}</h1>
-              <h3>{Data.headline}</h3>
+              <h1 className="responsive-headline">Marcial Cabrera</h1>
+              <h3>Software Engineer / Front-end Developer / Mobile Developer</h3>
               <ul className="social">
                 {Data.socialLinks &&
                   Data.socialLinks.map(item => {

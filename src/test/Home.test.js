@@ -1,20 +1,19 @@
 import React from 'react';
-import App from "../App";
+import Home from '../screens/Home';
 import Adapter from 'enzyme-adapter-react-16';
-import renderer from 'react-test-renderer';
 import { shallow, configure } from 'enzyme';
 
 configure({adapter: new Adapter()});
 
 describe('React component test with Enzyme', () => {
   it('renders home crashing', () => {
-     shallow(<App></App>);
+     shallow(<Home.name/>);
    });
 });
 
-it('renders correctly', () => {
-  const tree = renderer.create(<App />).toJSON()
-  expect(tree).toMatchSnapshot()
+
+test('name', () => {
+    const name = Home.h1;
+    console.log(name)
+    expect(name).not.toBeNull()
 })
-
-

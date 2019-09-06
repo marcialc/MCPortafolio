@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<section
+  id="about"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="three columns"
+    >
+      <img
+        alt=""
+        className="profile-pic"
+        src="assets/me2.jpg"
+      />
+    </div>
+    <div
+      className="nine columns main-col"
+    >
+      <h2>
+        About Me
+      </h2>
+      <p>
+        Currently a Senior in Florida International University (FIU) Pursing a Bachelors of Science in Computer Science. Very passionated about about my field and whats to come and the new tehcnologies and challenges it brings.
+      </p>
+      <div
+        className="row"
+      >
+        <div
+          className="columns contact-details"
+        >
+          <h2>
+            Contact
+          </h2>
+          <p
+            className="address"
+          >
+            <span>
+              Marcial Cabrera
+            </span>
+            <br />
+            <span>
+              Miami, FL
+            </span>
+            <br />
+            <span>
+              marcialandres06@gmail.com
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

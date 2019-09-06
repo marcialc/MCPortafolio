@@ -1,8 +1,8 @@
 import React, { Component } from "react";
+import Data from "../Data";
 
 export default class Experience extends Component {
   render() {
-    let Data = this.props.Data;
     return (
       <section id="experience">
         {/* Education Section */}
@@ -13,21 +13,16 @@ export default class Experience extends Component {
             </h1>
           </div>
           <div className="nine columns main-col">
-            {Data.education &&
-              Data.education.map(item => {
-                return (
-                  <div>
-                    <h2>{item.UniversityName}</h2>
-                    <p className="major">
-                      {item.major}
-                      <br />
-                      <p className="date">
-                        Expected Graduation Date: {item.endDate}
-                      </p>
-                    </p>
-                  </div>
-                );
-              })}
+            <div>
+              <h2>Florida International University (FIU)</h2>
+              <p className="major">
+              B.S Computer Science
+                <br />
+                <p className="date">
+                  Expected Graduation Date: Fall 2019 
+                </p>
+              </p>
+            </div>
           </div>
         </div>
 
