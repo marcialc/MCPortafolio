@@ -14,6 +14,5 @@ describe('React component test with Enzyme', () => {
 
 test('name', () => {
     const name = Home.h1;
-    console.log(name)
     expect(name).not.toBeNull()
 })
