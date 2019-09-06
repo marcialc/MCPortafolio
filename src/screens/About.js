@@ -4,7 +4,6 @@ export const age = (born, today) => {
   return today - born;
 }
 
-
 export default class About extends Component {
   render() {
     return (
