@@ -312,3 +312,22 @@ ul#nav li a:active {
   background: #fcc52f;
   width: 40%;
 }
+
+/* Contact Page */
+
+#contact .contact-info {
+  text-align: center;
+  background: #242323;
+  color: #fff;
+  padding-top: 50px;
+}
+
+#content .contact-wrapper {
+  height: 500px;
+  min-height: 400px;
+  background: #242323 no-repeat top center;
+  padding-top: 20px;
+  color: #fff;
+  justify-content: center;
+  overflow: hidden;
+}
