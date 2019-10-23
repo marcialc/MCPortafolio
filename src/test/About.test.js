@@ -18,11 +18,3 @@ it('renders correctly', () => {
   expect(tree).toMatchSnapshot()
 })
 
-test('test right age', () => {
-  let value = age(1995, 2019);
-  expect(value).toBe(24);
-
-  value = age(1870, 2019);
-  expect(value).toBe(149);
-})
-

@@ -6,25 +6,6 @@ export default class Home extends Component {
     return (
       <React.Fragment>
         <header id="home">
-          <nav id="nav-wrap">           
-            <ul id="nav" className="nav">
-              <li className="current">
-                <a className="smoothscroll" href="#home">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a className="smoothscroll" href="#about">
-                  About
-                </a>
-              </li>
-              <li>
-                <a className="smoothscroll" href="#experience">
-                  Experience
-                </a>
-              </li>
-            </ul>
-          </nav>
           <div className="row banner">
             <div className="banner-text">
               <h1 className="responsive-headline">Marcial Cabrera</h1>

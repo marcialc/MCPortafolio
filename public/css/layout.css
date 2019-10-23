@@ -117,11 +117,6 @@ header .scrolldown a:hover {
   margin: 0 auto;
   z-index: 100;
   position: fixed;
-  left: 0;
-  top: 0;
-}
-.opaque {
-  background-color: #333;
 }
 
 /* hide toggle button */
@@ -132,9 +127,6 @@ header .scrolldown a:hover {
 ul#nav {
   min-height: 40px;
   width: auto;
-
-  /* center align the menu */
-  text-align: center;
 }
 ul#nav li {
   position: relative;
@@ -165,16 +157,6 @@ ul#nav li a:active {
   padding-bottom: 90px;
   overflow: hidden;
 }
-
-#about a,
-#about a:visited {
-  color: #fff;
-}
-#about a:hover,
-#about a:focus {
-  color: #11abb0;
-}
-
 #about h2 {
   font: 24px "Courier New";
   font-weight: 400;
@@ -189,8 +171,8 @@ ul#nav li a:active {
 }
 #about .profile-pic {
   position: relative;
+  margin: 0px 0px 0px 30px;
   /* transform: rotate(90deg); */
-  top: 50px;
   width: 200px;
   height: 200px;
   border-radius: 100%;
@@ -199,26 +181,10 @@ ul#nav li a:active {
   width: 100%;
   padding-left: 0%;
 }
-#about .download {
-  width: 60%;
-  padding-top: 6px;
-}
 #about .main-col {
+  padding-top: 30px;
   padding-right: 8%;
 }
-#about .download .button {
-  margin-top: 6px;
-  background: #444;
-}
-#about .download .button:hover {
-  background: #fff;
-  color: #2b2b2b;
-}
-#about .download .button i {
-  margin-right: 15px;
-  font-size: 20px;
-}
-
 /* Experience CSS */
 
 #experience {
@@ -232,6 +198,7 @@ ul#nav li a:active {
   font: 20px "Courier New";
   text-transform: uppercase;
   letter-spacing: 1px;
+  padding-left: 20px;
 }
 
 /* underline */
