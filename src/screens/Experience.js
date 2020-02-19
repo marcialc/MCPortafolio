@@ -16,7 +16,7 @@ export default class Experience extends Component {
             <div>
               <h2>Florida International University (FIU)</h2>
               <div className="major">
-              B.S Computer Science
+                B.S Computer Science
                 <br />
                 <p className="date">
                   Expected Graduation Date: Fall 2019 
@@ -35,24 +35,24 @@ export default class Experience extends Component {
           </div>
           <div className="nine columns main-col">
             {Data.work &&
-              Data.work.map(item => {
+              Data.work.map(work => {
                 return (
                   <div className="row item">
                     <div className="twelve columns">
                       <h2>
-                        {item.CompanyName}{" "}
+                        {work.CompanyName}{" "}
                         <em
                           style={{
                             fontSize: 12,
                             paddingLeft: 30
                           }}
                         >
-                          {item.startDate} - {item.endDate}
+                          {work.startDate} - {work.endDate}
                         </em>
                       </h2>
 
-                      <p className="title">{item.title}</p>
-                      <p className="date"> {item.description}</p>
+                      <p className="title">{work.title}</p>
+                      <p className="date"> {work.description}</p>
                     </div>
                   </div>
                 );
@@ -61,7 +61,7 @@ export default class Experience extends Component {
         </div>
 
 
-        {/* Porjects Section */}
+        {/* Projects Section */}
         <div className="row work">
           <div className="three columns header-col">
             <h1>
@@ -70,24 +70,24 @@ export default class Experience extends Component {
           </div>
           <div className="nine columns main-col">
             {Data.projects &&
-              Data.projects.map(item => {
+              Data.projects.map(project => {
                 return (
                   <div className="row item">
                     <div className="twelve columns">
                       <h2>
-                        {item.title}{" "}
+                        {project.title}{" "}
                         <em
                           style={{
                             fontSize: 12,
                             paddingLeft: 30
                           }}
                         >
-                          {item.date}
+                          {project.date}
                         </em>
                       </h2>
 
-                      <p className="title">{item.name}</p>
-                      <p className="date"> {item.description}</p>
+                      <p className="title">{project.name}</p>
+                      <p className="date"> {project.description}</p>
                     </div>
                   </div>
                 );
@@ -113,13 +113,13 @@ export default class Experience extends Component {
             <div className="bars">
               <ul>
                 {Data.programmminglanguages &&
-                  Data.programmminglanguages.map(item => {
+                  Data.programmminglanguages.map(lang => {
                     return (
                       <li>
                         <span
-                          className={`bar-expand ${item.skillname.toLowerCase()}`}
+                          className={`bar-expand ${lang.skillname.toLowerCase()}`}
                         ></span>
-                        <em>{item.skillname}</em>
+                        <em>{lang.skillname}</em>
                       </li>
                     );
                   })}
