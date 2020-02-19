@@ -11,7 +11,7 @@ let Data = {
       name: "github",
       url: "http://github.com/marcialc",
       className: "fa fa-github"
-    }
+    },
   ],
   aboutme:
     "Currently a Senior in Florida International University (FIU) Pursing a Bachelors of Science in Computer Science. Very passionated about about my field and whats to come and the new tehcnologies and challenges it brings.",
@@ -42,23 +42,42 @@ let Data = {
       endDate: "Present"
     }
   ],
-  skillsDescription: "",
   programmminglanguages: [
     {
       skillname: "JAVA"
     },
     {
-      skillname: "SWIFT"
+      skillname: "JavaScript"
+    },
+    {
+      skillname: "Swift"
     },
     {
       skillname: "TypeScript"
     },
     {
-      skillname: "JavaScript"
+      skillname: "Kotlin"
+    },
+  ],
+  projects: [
+    {
+      title: "Full-Stack",
+      name: "Portfolio",
+      description: "Developed front-end using Redux and React.js, also implemented back-end using node.js, java spring and MongoDB. Jest testing framework was used for code consistency and unit testing.",
+      date: "09 / 2019"
     },
     {
-      skillname: "Kotlin"
-    }
+      title: "Neural Network / iOS App",
+      name: "ParasiteAI",
+      description: "For creating the neural network we used Flaks web app and it was hosted in Google Could App Engine. Created an iOS app that interacted with the neural network using 8base. It also won “best design” and third place overall.",
+      date: "02 / 2019"
+    },
+    {
+      title: "React-Native App",
+      name: "Bank-Health",
+      description: "Build a react native app, that told you about your bank health based on your transactions and account balance using fake data from City Bank API. Stored and saved all data in firebase. Used express framework from node.js for the back-end. It was also connected to google assistance for a hand-free experience.",
+      date: "09 / 2018"
+    },
   ],
 };
 

@@ -1,20 +1,27 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./screens/Home";
 import About from "./screens/About";
-import Experience from "./screens/Experience";
 import Contact from "./screens/Contact";
 import NavBar from "./components/NavBar";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <Router>
         <NavBar />
-        <Home />
-        <About />
-        <Experience />
-        <Contact />
-      </div>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/about"> 
+            <About />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
+      </Router>
     );
   }
 }

@@ -15,13 +15,13 @@ export default class Experience extends Component {
           <div className="nine columns main-col">
             <div>
               <h2>Florida International University (FIU)</h2>
-              <p className="major">
+              <div className="major">
               B.S Computer Science
                 <br />
                 <p className="date">
                   Expected Graduation Date: Fall 2019 
                 </p>
-              </p>
+              </div>
             </div>
           </div>
         </div>
@@ -60,6 +60,43 @@ export default class Experience extends Component {
           </div>
         </div>
 
+
+        {/* Porjects Section */}
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1>
+              <span>projects</span>
+            </h1>
+          </div>
+          <div className="nine columns main-col">
+            {Data.projects &&
+              Data.projects.map(item => {
+                return (
+                  <div className="row item">
+                    <div className="twelve columns">
+                      <h2>
+                        {item.title}{" "}
+                        <em
+                          style={{
+                            fontSize: 12,
+                            paddingLeft: 30
+                          }}
+                        >
+                          {item.date}
+                        </em>
+                      </h2>
+
+                      <p className="title">{item.name}</p>
+                      <p className="date"> {item.description}</p>
+                    </div>
+                  </div>
+                );
+              })}
+          </div>
+        </div>
+
+
+
         {/* Programming Languages Section */}
         <div className="row skill">
           <div className="three columns header-col">
@@ -73,10 +110,8 @@ export default class Experience extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <p>{Data.skillsDescription}</p>
-
             <div className="bars">
-              <ul className="programmminglanguages">
+              <ul>
                 {Data.programmminglanguages &&
                   Data.programmminglanguages.map(item => {
                     return (

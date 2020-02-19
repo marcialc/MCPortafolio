@@ -79,6 +79,16 @@ header .social li a:hover {
   color: #4aa8f0;
 }
 
+/* Resume Link */
+
+.resume a{
+  color: black;
+}
+
+.resume :hover{
+  color: #4aa8f0;
+}
+
 /* scrolldown button */
 header .scrolldown a {
   position: absolute;
@@ -97,10 +107,8 @@ header .scrolldown a:hover {
   color: #4aa8f0;
 }
 
-/* nav-wrap */
-#nav-wrap ul,
-#nav-wrap li,
-#nav-wrap a {
+/* Nav Bar */
+#nav-wrap {
   margin: 0;
   padding: 0;
   border: none;
@@ -108,10 +116,7 @@ header .scrolldown a:hover {
 }
 
 #nav-wrap {
-  font: 16px "Courier New";
   width: 100%;
-  text-transform: uppercase;
-  color: cornsilk;
   background-color: #0d0d0d;
   letter-spacing: 2.8px;
   margin: 0 auto;
@@ -120,13 +125,12 @@ header .scrolldown a:hover {
 }
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn {
-  display: none;
-}
 
 ul#nav {
   min-height: 40px;
   width: auto;
+  font: 16px "Courier New";
+  text-transform: uppercase;
 }
 ul#nav li {
   position: relative;
@@ -142,12 +146,21 @@ ul#nav li a {
   line-height: 32px;
   text-decoration: none;
   text-align: left;
-  color: #fff;
 }
 
-ul#nav li a:active {
-  background-color: transparent !important;
+ul#nav li :hover{
+  color: rgb(13, 117, 13);
 }
+
+
+.targetOn{
+  color: rgb(22, 189, 22);
+}
+
+.targetOff{
+  color: cornsilk;
+}
+
 
 /* About CSS */
 
@@ -258,6 +271,7 @@ ul#nav li a:active {
   width: 70%;
   float: left;
   padding: 0;
+  padding-top: 30px;
   text-align: left;
 }
 .bars .skills {
@@ -297,20 +311,20 @@ ul#nav li a:active {
   width: 90%;
 }
 .swift {
-  background: #2fcf1a;
-  width: 70%;
+  background: rgb(186, 236, 23);
+  width: 50%;
 }
 .typescript {
   background: rgb(186, 236, 23);
   width: 50%;
 }
 .javascript {
-  background: #fcc52f;
-  width: 40%;
+  background: #2fcf1a;
+  width: 55%;
 }
 .kotlin {
   background: #fcc52f;
-  width: 40%;
+  width: 30%;
 }
 
 /* Contact Page */
@@ -319,7 +333,7 @@ ul#nav li a:active {
   text-align: center;
   background: #242323;
   color: #fff;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 #content .contact-wrapper {

@@ -15,13 +15,18 @@ export default class Home extends Component {
                   Data.socialLinks.map(item => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url}>
+                        <a href={item.url} target="_blank" rel="noopener noreferrer">
                           <i className={item.className} />
                         </a>
                       </li>
                     );
                   })}
               </ul>
+              <div>
+                  <p className="resume">
+                     <a href="https://drive.google.com/file/d/1bfKh0XViy9PDcY67U_HqmGZK-ufslEX6/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-download"></i>  Download Resume</a>
+                  </p>
+               </div>
             </div>
           </div>
         </header>
