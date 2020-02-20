@@ -2,6 +2,14 @@ body {
   background: #0f0f0f;
 }
 
+#about .row {
+  margin-left: 0;
+}
+
+.row.education {
+  margin-left: 0;
+}
+
 header {
   position: relative;
   height: 700px;
@@ -170,22 +178,24 @@ ul#nav li :hover{
   padding-bottom: 90px;
   overflow: hidden;
 }
+
 #about h2 {
   font: 24px "Courier New";
   font-weight: 400;
   color: #fff;
   margin-bottom: 12px;
 }
+
 #about p {
   font: 16px "Courier New";
   font-weight: 500;
   line-height: 30px;
   color: #bbbbbb;
 }
+
 #about .profile-pic {
   position: relative;
   margin: 0px 0px 0px 30px;
-  /* transform: rotate(90deg); */
   width: 200px;
   height: 200px;
   border-radius: 100%;
@@ -198,6 +208,7 @@ ul#nav li :hover{
   padding-top: 30px;
   padding-right: 8%;
 }
+
 /* Experience CSS */
 
 #experience {

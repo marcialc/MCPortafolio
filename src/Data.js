@@ -64,19 +64,19 @@ let Data = {
       title: "Full-Stack",
       name: "Portfolio",
       description: "Developed front-end using Redux and React.js, also implemented back-end using node.js, java spring and MongoDB. Jest testing framework was used for code consistency and unit testing.",
-      date: "09 / 2019"
+      date: "August 2019"
     },
     {
       title: "Neural Network / iOS App",
       name: "ParasiteAI",
       description: "For creating the neural network we used Flaks web app and it was hosted in Google Could App Engine. Created an iOS app that interacted with the neural network using 8base. It also won “best design” and third place overall.",
-      date: "02 / 2019"
+      date: "February 2019"
     },
     {
       title: "React-Native App",
       name: "Bank-Health",
       description: "Build a react native app, that told you about your bank health based on your transactions and account balance using fake data from City Bank API. Stored and saved all data in firebase. Used express framework from node.js for the back-end. It was also connected to google assistance for a hand-free experience.",
-      date: "09 / 2018"
+      date: "August 2018"
     },
   ],
 };

@@ -16,10 +16,10 @@ export default class Experience extends Component {
             <div>
               <h2>Florida International University (FIU)</h2>
               <div className="major">
-                B.S Computer Science
+                Bachelor of Science in Computer Science
                 <br />
                 <p className="date">
-                  Expected Graduation Date: Fall 2019 
+                  Graduated: Fall 2019 
                 </p>
               </div>
             </div>
