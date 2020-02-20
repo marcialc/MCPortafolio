@@ -10,6 +10,13 @@
         font-weight: 400;
     }
 
+    /* NAVBAR */
+
+    ul#nav {
+        padding-left: 15%;
+    }
+
+
     /* ABOUT  */
 
     #about .profile-pic {
