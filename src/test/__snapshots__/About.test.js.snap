@@ -24,7 +24,7 @@ exports[`renders correctly 1`] = `
           About Me
         </h2>
         <p>
-          Currently a Senior in Florida International University (FIU) Pursing a Bachelors of Science in Computer Science. Very passionated about about my field and whats to come and the new tehcnologies and challenges it brings.
+          Florida International University (FIU) Alumni with a Bachelors of Science in Computer Science. Very passionated about about my field and whats to come and the new tehcnologies and challenges it brings.
         </p>
       </div>
     </div>
@@ -54,12 +54,12 @@ exports[`renders correctly 1`] = `
           <div
             className="major"
           >
-            B.S Computer Science
+            Bachelor of Science in Computer Science
             <br />
             <p
               className="date"
             >
-              Expected Graduation Date: Fall 2019
+              Graduated: Fall 2019
             </p>
           </div>
         </div>
@@ -184,7 +184,7 @@ exports[`renders correctly 1`] = `
                   }
                 }
               >
-                09 / 2019
+                August 2019
               </em>
             </h2>
             <p
@@ -217,7 +217,7 @@ exports[`renders correctly 1`] = `
                   }
                 }
               >
-                02 / 2019
+                February 2019
               </em>
             </h2>
             <p
@@ -250,7 +250,7 @@ exports[`renders correctly 1`] = `
                   }
                 }
               >
-                09 / 2018
+                August 2018
               </em>
             </h2>
             <p
