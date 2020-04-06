@@ -9,8 +9,8 @@ export default class Experience extends Component {
         <div className="row education">
           <div className="three columns header-col">
           <h1>
-              <span>education</span>
-            </h1>
+            <span>education</span>
+          </h1>
           </div>
           <div className="nine columns main-col">
             <div>
@@ -62,7 +62,7 @@ export default class Experience extends Component {
 
 
         {/* Projects Section */}
-        <div className="row work">
+        <div className="row projects">
           <div className="three columns header-col">
             <h1>
               <span>projects</span>

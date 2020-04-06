@@ -55,6 +55,7 @@ header .banner-text h3 {
   color: #0c0c06;
   margin: 0 auto;
   width: 70%;
+  /* padding-bottom: 120px; */
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
 header .banner-text h3 span,
@@ -87,10 +88,14 @@ header .social li a:hover {
   color: #4aa8f0;
 }
 
+dl, ol, ul{
+  margin-bottom: 0;
+}
+
 /* Resume Link */
 
 .resume a{
-  color: black;
+  color: #0c0c06;
 }
 
 .resume :hover{
@@ -222,7 +227,7 @@ ul#nav li :hover{
   font: 20px "Courier New";
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 /* underline */
@@ -239,13 +244,16 @@ ul#nav li :hover{
 
 #experience .header-col {
   padding-top: 20px;
+  padding-left: 0;
 }
 #experience .main-col {
   padding-right: 5%;
 }
 
 .education,
-.work {
+.work,
+.projects
+{
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
