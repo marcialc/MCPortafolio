@@ -9,7 +9,7 @@ export default class Home extends Component {
           <div className="row banner">
             <div className="banner-text">
               <h1 className="responsive-headline">Marcial Cabrera</h1>
-              <h3>Software Engineer / Front-end Developer / Mobile Developer</h3>
+              <h3>Software Engineer / Front-end Developer / Mobile Developer / Full-Stack </h3>
               <ul className="social">
                 {Data.socialLinks &&
                   Data.socialLinks.map(item => {
